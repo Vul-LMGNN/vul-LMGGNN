@@ -25,7 +25,7 @@ The experiments were executed on single NVIDIA A100 80GB GPU. The system specifi
 
 ## Dataset
 
-We evaluated the performance of our model using four publicly available datasets. The composition of the datasets is as follows, and you can click on the dataset names to download them. Please note that you need to modify the code in the `CPG_generation` function in `run.py` to adapt to different dataset formats.
+We evaluated the performance of our model using four publicly available datasets. The composition of the datasets is as follows, and you can click on the dataset names to download them. Please note that you need to modify the code in the `CPG_generator` function in `run.py` to adapt to different dataset formats.
 
 | *Dataset*                                                    | *#Vulnerable* | *#Non-Vulnerable* | *Source*       |
 | ------------------------------------------------------------ | ------------- | ----------------- | -------------- |
