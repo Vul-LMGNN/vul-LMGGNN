@@ -42,6 +42,7 @@ We evaluated the performance of our model using four publicly available datasets
 - Joern processing may be slow or potentially freeze your OS, depending on your system’s specs. To prevent this, **reduce the chunk size** processed during the **CPG_generation** process by adjusting the `"slice_size"` value in the `"create"` section of the `configs.json` file.
 - Within the `"slice_size"` parameter, nodes exceeding the configured size limit **will be filtered out and discarded**.
 - Follow the instructions on [Joern's documentation page](https://joern.io/docs/) and install Joern's command line tools under `'project'\joern\joern-cli\ `.
+- You can find the implementation code of the baselines mentioned in the paper in the `baselines.zip`, which consists of `four Jupyter notebooks`.
 
 ##### **Preparing the CPG :**
 
